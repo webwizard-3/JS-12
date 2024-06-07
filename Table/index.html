@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            text-align: center;
+            font-size: 20px;
+            font-family: sans-serif;
+            font-weight: 400;
+        }
+    </style>
+</head>
+<body>
+    <script>
+        document.write('<h2>TASK 3</h2>')
+        let start = parseInt(prompt('Enter the table you want','2'));
+        let end = parseInt(prompt('Enter the ending point','10'));
+        for (let i = 1; i <= end; i++) {
+            document.write(`${start} x ${i} = ${start * i} <br>`);
+        }
+    </script>
+</body>
+</html>
